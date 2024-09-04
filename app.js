@@ -14,7 +14,7 @@ app.use(cors({
   }));
 
 // API routes
-app.use("/api/v1", userRoutes);
+app.use("/", userRoutes);
 
 // Error handling middleware (should be last)
 app.use(errorMiddleware);
