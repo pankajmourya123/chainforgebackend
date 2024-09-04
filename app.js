@@ -24,4 +24,7 @@ app.get("/", (req, res) => {
     res.send("Hello");
 });
 
+app.get("/me", (req, res) => {
+  res.send("Hello");
+});
 export default app;
